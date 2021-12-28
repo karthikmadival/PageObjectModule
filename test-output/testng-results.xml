@@ -1,0 +1,180 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="1" total="4" passed="3">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite1" duration-ms="150304" started-at="2021-12-28T07:56:07Z" finished-at="2021-12-28T07:58:38Z">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="89352" started-at="2021-12-28T07:56:07Z" finished-at="2021-12-28T07:57:37Z">
+      <class name="tests.HomePageTest">
+        <test-method status="PASS" signature="launchBrowser(java.lang.String)[pri:0, instance:tests.HomePageTest@e50a6f6]" name="launchBrowser" is-config="true" duration-ms="17642" started-at="2021-12-28T13:26:07Z" finished-at="2021-12-28T13:26:25Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method status="PASS" signature="HomePageTestLoad()[pri:0, instance:tests.HomePageTest@e50a6f6]" name="HomePageTestLoad" is-config="true" duration-ms="347" started-at="2021-12-28T13:26:25Z" finished-at="2021-12-28T13:26:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- HomePageTestLoad -->
+        <test-method status="PASS" signature="validateMyEbayOptionList(java.lang.reflect.Method)[pri:0, instance:tests.HomePageTest@e50a6f6]" name="validateMyEbayOptionList" duration-ms="31171" started-at="2021-12-28T13:26:25Z" finished-at="2021-12-28T13:26:56Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void tests.HomePageTest.validateMyEbayOptionList(java.lang.reflect.Method)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateMyEbayOptionList -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:tests.HomePageTest@e50a6f6]" name="teardown" is-config="true" duration-ms="3279" started-at="2021-12-28T13:26:56Z" finished-at="2021-12-28T13:27:00Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method status="PASS" signature="launchBrowser(java.lang.String)[pri:0, instance:tests.HomePageTest@e50a6f6]" name="launchBrowser" is-config="true" duration-ms="33635" started-at="2021-12-28T13:27:00Z" finished-at="2021-12-28T13:27:33Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method status="PASS" signature="HomePageTestLoad()[pri:0, instance:tests.HomePageTest@e50a6f6]" name="HomePageTestLoad" is-config="true" duration-ms="1" started-at="2021-12-28T13:27:33Z" finished-at="2021-12-28T13:27:33Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- HomePageTestLoad -->
+        <test-method status="PASS" signature="validatecartIcon(java.lang.reflect.Method)[pri:0, instance:tests.HomePageTest@e50a6f6]" name="validatecartIcon" duration-ms="428" started-at="2021-12-28T13:27:33Z" finished-at="2021-12-28T13:27:34Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void tests.HomePageTest.validatecartIcon(java.lang.reflect.Method)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validatecartIcon -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:tests.HomePageTest@e50a6f6]" name="teardown" is-config="true" duration-ms="2787" started-at="2021-12-28T13:27:34Z" finished-at="2021-12-28T13:27:37Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- tests.HomePageTest -->
+    </test> <!-- Test -->
+    <test name="Test smoke" duration-ms="150295" started-at="2021-12-28T07:56:07Z" finished-at="2021-12-28T07:58:38Z">
+      <class name="tests.Cart">
+        <test-method status="PASS" signature="setup()[pri:0, instance:tests.Cart@5c1a8622]" name="setup" is-config="true" duration-ms="26" started-at="2021-12-28T13:26:07Z" finished-at="2021-12-28T13:26:07Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="launchBrowser(java.lang.String)[pri:0, instance:tests.Cart@5c1a8622]" name="launchBrowser" is-config="true" duration-ms="17600" started-at="2021-12-28T13:26:07Z" finished-at="2021-12-28T13:26:25Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method status="PASS" signature="HomePageTestLoad()[pri:0, instance:tests.Cart@5c1a8622]" name="HomePageTestLoad" is-config="true" duration-ms="534" started-at="2021-12-28T13:26:25Z" finished-at="2021-12-28T13:26:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- HomePageTestLoad -->
+        <test-method status="PASS" signature="addProductToCart(java.lang.reflect.Method)[pri:0, instance:tests.Cart@5c1a8622]" name="addProductToCart" duration-ms="81796" started-at="2021-12-28T13:26:25Z" finished-at="2021-12-28T13:27:47Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void tests.Cart.addProductToCart(java.lang.reflect.Method)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addProductToCart -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:tests.Cart@5c1a8622]" name="teardown" is-config="true" duration-ms="1470" started-at="2021-12-28T13:27:47Z" finished-at="2021-12-28T13:27:49Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- tests.Cart -->
+      <class name="tests.NewRegisterTestCase">
+        <test-method status="PASS" signature="launchBrowser(java.lang.String)[pri:0, instance:tests.NewRegisterTestCase@5ad851c9]" name="launchBrowser" is-config="true" duration-ms="14934" started-at="2021-12-28T13:27:49Z" finished-at="2021-12-28T13:28:04Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method status="PASS" signature="PageTestLoad()[pri:0, instance:tests.NewRegisterTestCase@5ad851c9]" name="PageTestLoad" is-config="true" duration-ms="20" started-at="2021-12-28T13:28:04Z" finished-at="2021-12-28T13:28:04Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- PageTestLoad -->
+        <test-method status="FAIL" signature="VerifyRegisterUserButton(java.lang.reflect.Method)[pri:0, instance:tests.NewRegisterTestCase@5ad851c9]" name="VerifyRegisterUserButton" duration-ms="32147" started-at="2021-12-28T13:28:04Z" finished-at="2021-12-28T13:28:36Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void tests.NewRegisterTestCase.VerifyRegisterUserButton(java.lang.reflect.Method)]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[SendKeys method is failed  expected [true] but found [false]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: SendKeys method is failed  expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.failNotEquals(Assert.java:513)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:135)
+	at org.testng.Assert.assertEquals(Assert.java:116)
+	at org.testng.Assert.assertEquals(Assert.java:305)
+	at utilities.commonMethods.sendKeys(commonMethods.java:81)
+	at pages.registerPage.enterUN(registerPage.java:35)
+	at tests.NewRegisterTestCase.VerifyRegisterUserButton(NewRegisterTestCase.java:41)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:100)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:646)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:811)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1129)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at org.testng.TestRunner.privateRun(TestRunner.java:746)
+	at org.testng.TestRunner.run(TestRunner.java:600)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:366)
+	at org.testng.SuiteRunner.access$000(SuiteRunner.java:39)
+	at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:400)
+	at org.testng.internal.thread.ThreadUtil$2.call(ThreadUtil.java:64)
+	at java.util.concurrent.FutureTask.run(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifyRegisterUserButton -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:tests.NewRegisterTestCase@5ad851c9]" name="teardown" is-config="true" duration-ms="1478" started-at="2021-12-28T13:28:36Z" finished-at="2021-12-28T13:28:38Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- tests.NewRegisterTestCase -->
+    </test> <!-- Test smoke -->
+  </suite> <!-- Suite1 -->
+</testng-results>

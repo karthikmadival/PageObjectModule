@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="4" guice-stage="DEVELOPMENT" name="Failed suite [Suite1]" parallel="tests">
+  <parameter name="browserName" value="chrome"/>
+  <listeners>
+    <listener class-name="listeners.TestListener"/>
+  </listeners>
+  <test name="Test smoke(failed)" parallel="tests">
+    <parameter name="browserName" value="chrome"/>
+    <classes>
+      <class name="tests.NewRegisterTestCase">
+        <methods>
+          <include name="VerifyRegisterUserButton" invocation-numbers="0"/>
+          <include name="launchBrowser"/>
+          <include name="PageTestLoad"/>
+          <include name="teardown"/>
+        </methods>
+      </class> <!-- tests.NewRegisterTestCase -->
+      <class name="tests.Cart">
+        <methods>
+          <include name="launchBrowser"/>
+          <include name="teardown"/>
+          <include name="HomePageTestLoad"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- tests.Cart -->
+      <class name="tests.HomePageTest">
+        <methods>
+          <include name="launchBrowser"/>
+          <include name="HomePageTestLoad"/>
+          <include name="teardown"/>
+        </methods>
+      </class> <!-- tests.HomePageTest -->
+    </classes>
+  </test> <!-- Test smoke(failed) -->
+</suite> <!-- Failed suite [Suite1] -->
